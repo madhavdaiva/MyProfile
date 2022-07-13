@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <tittle>Registration Form </tittle>
+</head>
+
+<body>
+
+    <form>
+        <fieldset>
+            <legend> <h2> <span> Student Registration Form </span> </h2> </legend>
+
+            <table>
+
+                <body>
+                    <tr>
+                        <td><label for="firstname"> First Name </label> </td>
+                        <td><input type="text" id="firstname" autofocus placeholder="only first name "></td>
+                    </tr>
+                    <tr>
+                        <td><label for="lastname"> Last Name </label></td>
+                        <td><input type="text" maxlength="5" id="lastname" placeholder="only last name"></td>
+                    </tr>
+                    <tr>
+                        <td><label for="mobilenumber"> Mobile no with country code </label> </td>
+                        <td> <input type="number" id="mobilenumber" required
+                                placeholder="please enter with country code"> </td>
+                    </tr>
+                    <tr>
+                        <td><label>Email</label></td>
+                        <td><input type="email" required></td>
+                    </tr>
+                    <tr>
+                        <td><label>password</label></td>
+                        <td><input type="password" required></td>
+
+                    </tr>
+                    <tr>
+                        <td><label>country name </label></td>
+                        <td><input type="text" value="india" readonly></td>
+
+                    </tr>
+                    <tr>
+                        <td><label>you have bank account </label></td>
+                        <td><input type="text" value="yes" disabled></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Date Of Birth </label> </td>
+                        <td> <input type="date"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Available in Week</label></td>
+                        <td> <input type="Week"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Available in Month</label></td>
+                        <td> <input type="Month"></td>
+                    </tr>
+                    <tr>
+                        <td> <label> Preferred Time</label></td>
+                        <td> <input type="Time"></td>
+                    </tr>
+                    <tr>
+                        <td> select profile photo</td>
+                        <td> <input type="file"></td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <lable> Select Certificates</lable>
+                        </td>
+                        <td>
+                            <input type="file" multiple>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Select Graduction </label></td>
+                        <td>
+                            <select>
+                                <option>BE</option>
+                                <option>MCA</option>
+                                <option>MBA</option>
+                                <option>MTECH</option>
+                            </select>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Select Graduction </label></td>
+                        <td>
+                            <select>
+                                <optgroup label="Bachelor of Engineering">
+                                    <option> Computer Science </option>
+                                    <option> Information Technology </option>
+                                    <option> Mechanical </option>
+                                    <option> Civil </option>
+                                </optgroup>
+                                <Optgroup label="Master in Computer Application">
+                                    <option> MCA Science </option>
+                                    <Option> MCA Commerce </Option>
+                                </Optgroup>
+                                <Optgroup label="MBA">
+                                    <Option> Finance </Option>
+                                    <option> Human Resource </option>
+                                    <option> Material Science </option>
+                                    <option> Business </option>
+
+                                </Optgroup>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td> <label> selesct Gender </label></td>
+                        <td>
+                            <input type="radio" name="gender">
+                            <label> male</label>
+                            <input type="radio" name="gender">
+                            <label> Femal</label>
+
+                            <input type="radio" name="gender">
+                            <label> Others <label>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td> <label> Please Select Trainings </label></td>
+                        <td>
+                            <input type="checkbox">
+                            <label>Angular</label>
+
+                            <input type="checkbox">
+                            <label>java</label>
+
+                            <input type="checkbox">
+                            <label>.Net</label>
+
+                            <input type="checkbox">
+                            <label>DevOps</label>
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td><label> Address </label></td>
+                        <td> <textarea cols="30" rows="7"></textarea> </td>
+                    </tr>
+
+
+                    <tr>
+                        <td> <input type="submit"> </td>
+                        <td> <input type="Reset"></td>
+                    </tr>
+                </body>
+            </table>
+        </fieldset>
+    </form>
+
+
+</body>
+
+
+
+</html>
